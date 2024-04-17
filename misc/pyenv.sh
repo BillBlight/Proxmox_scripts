@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 
 set -e
 YW=$(echo "\033[33m")
@@ -111,9 +112,10 @@ cat <<EOF >/srv/esphome/start.sh
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 
 source /srv/esphome/bin/activate
 esphome dashboard /srv/esphome/

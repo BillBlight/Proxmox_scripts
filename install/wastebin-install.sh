@@ -4,7 +4,7 @@
 # Author: tteck
 # Co-Author: MickLesk (Canbiz)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 # Source: https://github.com/matze/wastebin
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"

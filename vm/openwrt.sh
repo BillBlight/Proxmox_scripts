@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 #         Jon Spriggs (jontheniceguy)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 # Based on work from https://i12bretro.github.io/tutorials/0405.html
 
 function header_info {
@@ -475,7 +476,7 @@ qm set $VMID \
   -efidisk0 ${DISK0_REF},efitype=4m,size=4M \
   -scsi0 ${DISK1_REF},size=512M \
   -boot order=scsi0 \
-  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/logo-81x112.png'/></a>
+  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/main/misc/images/logo-81x112.png'/></a>
 
   # OpenWRT
 

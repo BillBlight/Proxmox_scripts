@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 
 clear
 if command -v pveversion >/dev/null 2>&1; then echo -e "⚠️  Can't Run from the Proxmox Shell"; exit; fi

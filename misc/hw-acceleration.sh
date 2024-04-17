@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 # Execute within the Proxmox shell
-# bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/hw-acceleration.sh)"
+# bash -c "$(wget -qLO - https://github.com/BillBlight/Proxmox_scripts/raw/main/misc/hw-acceleration.sh)"
 
 set -e
 function header_info {

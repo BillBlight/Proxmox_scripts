@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2024 tteck
 # Authors: tteck (tteckster)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
 color

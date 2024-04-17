@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck (tteckster)
+# Original Author: tteck (tteckster)
+# Forked By BillBlight
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/BillBlight/Proxmox_scripts/raw/main/LICENSE
 
 function header_info() {
   clear
@@ -40,7 +41,7 @@ function clean_container() {
   header_info
   name=$(pct exec "$container" hostname)
   echo -e "${BL}[Info]${GN} Cleaning ${name} ${CL} \n"
-  pct exec $container -- bash -c "apt-get -y --purge autoremove && apt-get -y autoclean && bash <(curl -fsSL https://github.com/tteck/Proxmox/raw/main/misc/clean.sh) && rm -rf /var/lib/apt/lists/* && apt-get update"
+  pct exec $container -- bash -c "apt-get -y --purge autoremove && apt-get -y autoclean && bash <(curl -fsSL https://github.com/BillBlight/Proxmox_scripts/raw/main/misc/clean.sh) && rm -rf /var/lib/apt/lists/* && apt-get update"
 }
 for container in $(pct list | awk '{if(NR>1) print $1}'); do
   if [[ " ${excluded_containers[@]} " =~ " $container " ]]; then
