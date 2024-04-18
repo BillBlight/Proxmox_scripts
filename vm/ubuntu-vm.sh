@@ -412,7 +412,7 @@ qm set $VMID \
   -ide2 ${STORAGE}:cloudinit \
   -boot order=scsi0 \
   -serial0 socket \
-  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/main/misc/images/logo-81x112.png'/></a>
+  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/mine/misc/images/logo-81x112.png'/></a>
 
   # Ubuntu 22.04 VM
 

@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/main/misc/images/logo.png" height="100px" />
+<img src="https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/mine/misc/images/logo.png" height="100px" />
 </div>
 <h2><div align="center">Exploring the Scripts and Steps Involved in an Application LXC Installation</div></h2>
 

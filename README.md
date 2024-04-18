@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/main/misc/images/logo.png" height="100px" />
+    <img src="https://raw.githubusercontent.com/BillBlight/Proxmox_scripts/mine/misc/images/logo.png" height="100px" />
  </a>
 </div>
 <h1 align="center">Fork of Proxmox VE Helper-Scripts</h1>
